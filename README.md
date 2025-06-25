@@ -44,24 +44,3 @@ SELECT status, COUNT(*) as comment_count
 FROM comments
 GROUP BY status;
 ```
-
-## How to Set Up
-1. Make sure you have MySQL installed
-2. Run the `blog_platform_schema.sql` script
-3. Run the `sample_data.sql` script to populate with sample data
-
-## Challenges I Faced
-- Normalizing the schema was tricky
-- Implementing multi-tenancy without compromising data isolation
-- Designing flexible roles and permissions
-
-## Note to Evaluator
-I've tried my best to follow all the requirements and implement the core and bonus features. Hope you like it!
-
-## Tools Used
-- MySQL Workbench
-- Lots of coffee
-- Stackoverflow (occasionally)
-
-## Contact
-If you have any questions, feel free to reach out! 
